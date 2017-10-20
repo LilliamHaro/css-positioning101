@@ -1,0 +1,21 @@
+#box_1 {
+	position: relative;/*funciona igual que un static si es que no se le ponen las propiedades de desplazamiento*/
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box_2 {
+	position: relative; /*agregando la propiedad de desplazamiento si se originan cambios en el flujo del elemento*/
+	left: 200px;/*avanza 200px desde la izquierda*/
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3 {
+	position: relative; /*un elemento posicionado relatvament no afecta a los demas elementos que siguen*/
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}

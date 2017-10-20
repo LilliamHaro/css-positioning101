@@ -1,0 +1,17 @@
+#box_1 {
+	position: absolute;
+	top: 0;/*el limite el borde de body*/
+	right: 20%; /*limite es 20% empezando desde la derecha*/
+	bottom: 0;/*el limite el borde de body*/
+	left: 0;/*el limite el borde de body*/
+	background: #ee3e64;/*columna rosa*/
+}
+
+#box_2 {
+	position: absolute;
+	top: 0;/*el limite el borde de body*/
+	right: 0;/*el limite el borde de body*/
+	bottom: 0;/*el limite el borde de body*/
+	left: 80%;/*limite es 80% del body empezando desde la izquierda */
+	background: #b7d84b;/*columna verde*/
+}

@@ -1,0 +1,20 @@
+#box_1 {
+	position: static; /*static-->no puede reorientar los elementos*/
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box_2 {
+	position: static;/*representa el flujo natural de los elementos*/
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3 {
+	position: static;/*en elementos de bloque no modifica el flujo de arriba hacia abajo */
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}

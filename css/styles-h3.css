@@ -1,0 +1,13 @@
+#box_1 {
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+#box_2 {
+	position: absolute;
+	top: 0;/*se posicionará encima de box_1 en la parte superior para cumplir con el valor que se le da a top con absolute*/
+	left: 100px;/*se movera 100px desde la izquierda*/
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}

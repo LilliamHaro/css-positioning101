@@ -1,0 +1,13 @@
+#box_1 {
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+#box_2 {
+	position: absolute;
+	left: 100px;/*se desplaza sin  sobreponerse a box_1 en la parte superior ya que solo debe moverse 100px al lado izquierdo*/
+	/*top:50px; -->si tuviera esto se posicionaría encima de box_1 en la parte superior para cumplir con el valor que se le da a top con absolute*/
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
